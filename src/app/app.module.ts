@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 // root component
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ButtonComponent } from './components/button/button.component';
 
 // when creating components using cli tool they are imported here automatically
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule

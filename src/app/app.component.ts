@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
 
 // this where you put any properties of your component e.g. title, methods
 export class AppComponent {
-  title: string = 'Task Tracker';
+
 }
