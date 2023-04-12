@@ -13,4 +13,8 @@ export class HeaderComponent {
 
   ngOnInit(): void {}
 
+  toggleAddTask(){
+    console.log('toggle');
+  }
+
 }
