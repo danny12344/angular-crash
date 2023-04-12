@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
+import { TaskService } from 'src/app/services/task.service';
 import {Task} from '../../Task';
-import {TASKS} from '../../mock-tasks';
 
 @Component({
   selector: 'app-tasks',
@@ -10,11 +10,12 @@ import {TASKS} from '../../mock-tasks';
 export class TasksComponent {
 
   // ultimately this will be coming from our backend - json server / django
-  tasks: Task[] = TASKS;
+  tasks: Task[] = [];
 
-  constructor(){}
+  constructor(private taskService: TaskService){}
 
   ngOnInit(): void {
+      this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks);
   }
 
 }
