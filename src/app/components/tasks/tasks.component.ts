@@ -8,6 +8,8 @@ import {TASKS} from '../../mock-tasks';
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent {
+
+  // ultimately this will be coming from our backend - json server / django
   tasks: Task[] = TASKS;
 
   constructor(){}
