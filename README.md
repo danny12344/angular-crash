@@ -1,5 +1,9 @@
 # AngularCrash
 
+Learning Angular following this YouTube tutorial: https://www.youtube.com/watch?v=3dHNOWTI7H8&t=4100s&ab_channel=TraversyMedia
+
+Using this dummy backend that has a fake REST API: https://github.com/typicode/json-server
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
